@@ -1,0 +1,42 @@
+# Ignore Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.so
+
+# Ignore Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Ignore data files and large artifacts
+*.csv
+*.tsv
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.pt
+*.pth
+
+# Ignore environment + package files
+.env
+.venv
+env/
+venv/
+Pipfile.lock
+poetry.lock
+*.egg-info/
+dist/
+build/
+
+# Ignore Colab auth tokens or Google credentials
+token.json
+credentials.json
+
+# Ignore logs and junk
+*.log
+.DS_Store
+*.bak
+*.swp
+*.tmp
+
+# Keep all notebooks
+!*.ipynb
